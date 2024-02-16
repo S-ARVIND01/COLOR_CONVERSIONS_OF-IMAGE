@@ -47,9 +47,9 @@ Register Number:212222240012
 ### i) Read and display the image
 ```Python
 import cv2
-image=cv2.imread('scenery.jpg',1)
+image=cv2.imread('lion.jpg',1)
 image=cv2.resize(image,(400,300))
-cv2.imshow('VINODKUMAR',image)
+cv2.imshow('ARVIND',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ``` 
@@ -71,7 +71,7 @@ cv2.destroyAllWindows()
 ### ii)Write the image
 ```Python
 import cv2
-image=cv2.imread('scenery.jpg',0)
+image=cv2.imread('lion.jpg',0)
 cv2.imwrite('news.jpg',image)
 ```
   </td>
